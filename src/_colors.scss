@@ -1,0 +1,28 @@
+$blank: #fff;
+$dark: #87314e;
+$light: #fff;
+$highlight: #df405a;
+$royal: #fbcb45;
+
+//$dark: #4E3736;
+//$light: #A58C72;
+//$highlight: #9B7654;
+
+.blank-bg {
+  background-color: $blank;
+}
+.dark-bg {
+  background-color: $dark;
+  color: $highlight;
+}
+.light-bg {
+  background-color: $light;
+}
+.highlight-bg {
+  background-color: $highlight;
+  color: #fff;
+}
+.royal-bg {
+  background-color: $royal;
+  color: #000;
+}
