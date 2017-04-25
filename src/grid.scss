@@ -15,7 +15,6 @@ $pushes: true !default;
 $pulls: true !default;
 $breaks: true !default;
 $aligns: true !default;
-// Boot up grid maker 9000
 .#{nth($grid-pieces, 1)}, .#{nth($grid-pieces, 1)}-#{$fluid-class}  {
 	display: flex;
 	flex-direction: column;
@@ -99,4 +98,4 @@ $aligns: true !default;
     }
   }
 }
-//Under 100 lines!
+//100 lines!
